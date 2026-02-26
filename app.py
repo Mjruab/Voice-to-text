@@ -19,22 +19,23 @@ try:
 except:
     pass
 
-st.subheader("Una pequeña Fábula.")
-st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
-         ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
-         ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
-         ' la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato...y se lo comió. ' 
-         '  '
-         ' Franz Kafka.'
+st.subheader("Espero curarme de ti")
+st.write(' ¿Te parece bien que te quiera nada más una semana? '  
+         ' No es mucho, ni es poco, es bastante. ' 
+         ' En una semana se puede reunir todas las palabras de amor '  
+         ' que se han pronunciado sobre la tierra ' 
+         ' y se les puede prender fuego. '
+         ' '
+         'Jaime Sabines'
         
         )
            
-st.markdown(f"Quieres escucharlo?, copia el texto")
-text = st.text_area("Ingrese El texto a escuchar.")
+st.markdown(f"Quieres escucharlo? Copia el texto y pégalo en el cuadro abajo 🡳")
+text = st.text_area("Ingrese el texto a escuchar.")
 
 tld='com'
 option_lang = st.selectbox(
-    "Selecciona el lenguaje",
+    "Selecciona el idioma",
     ("Español", "English"))
 if option_lang=="Español" :
     lg='es'
