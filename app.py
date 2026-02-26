@@ -32,7 +32,7 @@ st.write(' ¿Te parece bien que te quiera nada más una semana? '
         
         )
            
-st.markdown(f"Quieres escucharlo? Copia el texto y pégalo en el cuadro abajo 🡳")
+st.markdown(f"¿Quieres escucharlo? Copia el texto y pégalo en el cuadro abajo 🡳")
 text = st.text_area("Ingrese el texto a escuchar.")
 
 tld='com'
