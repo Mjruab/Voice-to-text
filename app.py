@@ -11,7 +11,7 @@ st.title("Conversión de Texto a Audio")
 image = Image.open('TextoAudio.jpg')
 st.image(image, width=350)
 with st.sidebar:
-    st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
+    st.subheader("Esrcibe y/o selecciona texto para poder escucharlo.")
 
 
 try:
@@ -26,7 +26,9 @@ st.write(' ¿Te parece bien que te quiera nada más una semana? '
          ' que se han pronunciado sobre la tierra ' 
          ' y se les puede prender fuego. '
          ' '
-         'Jaime Sabines'
+         ' '
+         ' '
+         'Jaime Sabines.'
         
         )
            
