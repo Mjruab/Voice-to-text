@@ -11,7 +11,7 @@ st.title("Conversión de Texto a Audio")
 image = Image.open('TextoAudio.jpg')
 st.image(image, width=350)
 with st.sidebar:
-    st.subheader("Esrcibe y/o selecciona texto para poder escucharlo.")
+    st.subheader("Escribe y/o selecciona texto para poder escucharlo.")
 
 
 try:
@@ -38,11 +38,11 @@ text = st.text_area("Ingrese el texto a escuchar.")
 tld='com'
 option_lang = st.selectbox(
     "Selecciona el idioma",
-    ("Español", "English"))
+    ("Español", "Italiano"))
 if option_lang=="Español" :
     lg='es'
-if option_lang=="English" :
-    lg='en'
+if option_lang=="Italiano" :
+    lg='it'
 
 def text_to_speech(text, tld,lg):
     
