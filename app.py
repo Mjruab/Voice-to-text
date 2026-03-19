@@ -51,7 +51,7 @@ h1, h2, h3 { color: #f57f17; }
 st.title("🎧 Conversión de Texto a Audio")
 
 try:
-    image = Image.open('Interfaz de texto a audio digital.png')
+    image = Image.open('Ondas sonoras de colores vibrantes.png')
     st.image(image, width=500)
 except:
     st.info("📷 Imagen no encontrada.")
