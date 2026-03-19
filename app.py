@@ -52,7 +52,7 @@ st.title("🎧 Conversión de Texto a Audio")
 
 try:
     image = Image.open('Interfaz de texto a audio digital.png')
-    st.image(image, width=350)
+    st.image(image, width=500)
 except:
     st.info("📷 Imagen no encontrada.")
 
